@@ -1,0 +1,114 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-20T08:37:31.185Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4717120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To add the highest price item from dresses page to cart without using sort by option",
+        "description": "",
+        "id": "confirm-the-highest-priced-listed-in-dresses-page-added-to-cart;to-add-the-highest-price-item-from-dresses-page-to-cart-without-using-sort-by-option",
+        "after": [
+          {
+            "result": {
+              "duration": 766762700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5614202300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to automation practice page",
+            "match": {
+              "location": "HomePageStepDef.userNavigatesToAutomationPracticePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2671015300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User selects the dresses menu on home page",
+            "match": {
+              "location": "HomePageStepDef.userSelectsTheDressesMenuOnHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232234400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects the highest price item on displayed dresses page, adds to cart",
+            "match": {
+              "location": "DressPageStepDef.userSelectsTheHighestPriceItemOnDisplayedDressesPageAddsToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2919107700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User receives added successfully pop-up window message Product successfully added to your shopping cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product successfully added to your shopping cart",
+                  "offset": 55
+                }
+              ],
+              "location": "DressPageStepDef.userReceivesAddedSuccessfullyPopUpWindow(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddHighestIem"
+          }
+        ]
+      }
+    ],
+    "name": "Confirm the highest priced listed in dresses page added to cart",
+    "description": "",
+    "id": "confirm-the-highest-priced-listed-in-dresses-page-added-to-cart",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/Kittu/Desktop/Project/automation-test-practice/src/test/resources/features/AddHighestPriceItemInCartAndConfirmed.feature",
+    "tags": [
+      {
+        "name": "@AddHighestIem",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+pageobjects\HomePage.class
+configuration\RunCucumberTest.class
+pageobjects\DressesPage.class
+stepdefinitions\HomePageStepDef.class
+Parallel01IT.class
+stepdefinitions\BasePage.class
+stepdefinitions\Hooks.class
+stepdefinitions\DressPageStepDef.class
+configuration\Driver.class
